@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+}
+
+.total-area{
+    margin: 50px auto;
+    width: 402px;
+    height: 482px;
+    background-color: #ccc;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+.result{
+
+    width: 100%;
+    height: 70px;
+    border: 1px solid black;
+    background-color: white;
+    font-size: 46px;
+    padding-top: 7px;
+    padding-right: 10px;
+    text-align: right;
+}
+
+.keyboard-key, .keyboard-key-ope{
+    float: left;
+    width: 68px;
+    height: 68px;
+    border: 1px solid black;
+    margin: 10px 0 0 10px;
+    background-color: white;
+    text-align: center;
+    font-size: 46px;
+    padding-top: 7px;
+    cursor: pointer;
+}
+
+.keyboard-key:hover, .keyboard-key-ope:hover{
+    border: 1px solid red;
+}
+
+.historic{
+    width: 224px;
+    opacity: 0;
+}
+
+.box-1{
+    float: left;
+    width: 224px;
+}
+
+.box-2{
+    width: 156px;
+    float: left;
+}
+.sum, .equal{
+   height: 146px;
+   float: left;
+   padding-top: 27%;
+}
+
+.historic, .seven, .four, .one, .zero{
+    margin-left: 0;
+}
+
+.back{
+    padding-top: 11px;
+}
+
+.back img{
+    width: 60%;
+}
+
